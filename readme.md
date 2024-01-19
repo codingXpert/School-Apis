@@ -72,7 +72,7 @@ The application provides APIs for school management. Make requests using tools l
 
 ### API Endpoints
 
- #### Authentication
+ ### Authentication
 
 **POST api/user/signUp**
 * Create a new user account.
@@ -82,7 +82,7 @@ The application provides APIs for school management. Make requests using tools l
 **POST api/user/login**
 * Log in with email and password.
 
-#### Schools
+### Schools
 
 **POST api/school/create**
 * Create a new school.
@@ -91,7 +91,7 @@ The application provides APIs for school management. Make requests using tools l
 **GET api/school/my-schools**
 * Get schools associated with the user.
 
-#### Classes
+### Classes
 
 **POST api/class/create**
 * Create a new class.
@@ -99,7 +99,7 @@ The application provides APIs for school management. Make requests using tools l
 **GET api/class/by-school/:schoolId**
 * Get classes for a specific school.
 
-#### Students
+### Students
 
 **POST api/student/create**
 * Create a new student.
