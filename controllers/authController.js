@@ -1,10 +1,9 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
-const config = require('../config/sqlConnection');
 
 const generateToken = (userId) => {
-  return jwt.sign({ userId }, config.jwtSecret, { expiresIn: '1h' });
+  return jwt.sign({ userId }, process.env.JWT_SECRET, { expiresIn: '1h' });
 };
 
 const authController = {
