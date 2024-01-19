@@ -4,7 +4,9 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 const db = require('./config/sqlConnection');
 
-
+//middlewares
+app.use(express.json());
+app.use('/api', require('./routes'));
 
 app.listen(PORT, (err) => {
     if(err) {
