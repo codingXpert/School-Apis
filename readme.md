@@ -39,7 +39,7 @@ The School Application is a web application built using Node.js, Express.js, and
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/codingXpert/School-Apis
 
 2. Install dependencies:
 
