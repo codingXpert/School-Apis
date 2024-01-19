@@ -14,8 +14,7 @@ The School Application is a web application built using Node.js, Express.js, and
 - [Models](#models)
 - [Controllers](#controllers)
 - [Routes](#routes)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
